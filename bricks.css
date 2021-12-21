@@ -1,0 +1,96 @@
+h2 {
+    background-color: black;
+    color: #b2d6b5;
+    padding-left: 70%;
+    font-family: 'Press Start 2P', 'Franklin Gothic Medium', 'Arial Narrow';
+    margin-top: 0%;
+}
+
+body {
+    background-color: #b2d6b5;
+    margin: 0px;
+    z-index: -1;
+    height: 50%;
+}
+
+div {
+    position: absolute;
+    left: 1%;
+   /* margin: 10px 0px 25px 25px; */
+    background-color: black;
+    height: 50%;
+    width: 98%;
+    display: inline-block;
+
+}
+.blackrow {
+    background-color: black;
+    color: black;
+    width: 100px;
+    height: 20px;
+}
+.redrow {
+    background-color: #fb0204;
+    color: #fb0204;
+    width: 100px;
+    height: 20px;
+}
+
+.yellowrow {
+    background-color: #fefe07;
+    color: #fefe07;
+    width: 100px;
+    height: 20px;
+}
+
+.greenrow {
+    background-color: #127003;
+    color: #127003;
+    width: 100px;
+    height: 20px;
+}
+
+.bluerow {
+    background-color: #1c00fb;
+    color: #1c00fb;
+    width: 100px;
+    height: 20px;
+}
+
+.whitebox1 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10.5%;
+    left: 17%;
+    background-color: white;
+}
+
+.whitebox2 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10.5%;
+    left: 82%;
+    background-color: white;
+}
+
+.whitebox3 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    background-color: white;
+}
+
+footer {
+    color: #b2d6b5;
+    background-color: #b2d6b5;
+    position: absolute;
+    bottom: 2px;
+    left: 43%;
+    width: 12%;
+    border-color: black;
+    border-radius: 2px;
+}
