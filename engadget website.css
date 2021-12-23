@@ -1,0 +1,50 @@
+#menu {
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+#item {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+
+.image {
+    width: 85%;
+    height: 85%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#menutext {
+    padding: 10px 0px 10px 20px;
+}
+
+.ad {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+}
+
+@media (max-width: 767px) {
+    .ad {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu {
+        flex-direction: row;
+        
+    }
+}
+
